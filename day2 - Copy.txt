@@ -1,0 +1,113 @@
+1)J2SE: JAVASTANDERD EDITION 
+   ----------
+  CORE JAVA + JDBC :
+
+2)J2EE :-
+    
+    Servlets, jsp, EJB, STRUTS,SPRING, SPRINGBOOT, HIBERNATE,
+
+  WEBSERVICE:- soap webservice, restfullwebservice.
+
+------------------
+  
+java featurs:
+--------
+
+1)Simple: 
+    Java is very easy to learn, and its syntax is simple, clean and easy to understand.
+    Java syntax is based on C++ (so easier for programmers to learn it after C++).
+    Java has removed many complicated and rarely-used features, for example, explicit pointers, operator overloading, etc.
+    There is no need to remove unreferenced objects because there is an Automatic Garbage Collection in Java.
+
+2)Platform Independet.
+    Java is platform independent because it is different from other languages like C, C++, etc. 
+    which are compiled into platform specific machines while Java is a write once, run anywhere language.
+3)Por/table.
+    Java is portable because it facilitates you to carry the Java bytecode to any platform. 
+    It doesn't require any implementation.
+4)Object Oriented.
+    1)class
+    2)Object,
+    3)Encaptualtion
+    4)Abstraction
+    5)Inheritence  ect.....
+5)Secure.
+    Java is best known for its security. With Java, we can develop virus-free systems. Java is secured because:
+    No explicit pointer.
+    Java Programs run inside a virtual machine sandbox.
+    java has Classloader system , Bytecode Verifier and Security Manager systems will be implemented.
+     
+6)Robust     
+  Robust means strong. 
+  It uses strong memory management.
+  There is a lack of pointers that avoids security problems.
+  Java provides automatic garbage collection which runs on the Java Virtual Machine to get rid of objects which are not being used by a Java application anymore.
+  There are exception handling and the type checking mechanism in Java. All these points make Java robust.
+
+7)Distributed
+   Java is distributed because it facilitates users to create distributed applications in Java. 
+   RMI and EJB are used for creating distributed applications. 
+   This feature of Java makes us able to access files by calling the methods from any machine on the internet.
+
+8)Multithreaded.
+    A thread is like a separate program, executing concurrently.
+    We can write Java programs that deal with many tasks at once by defining multiple threads. 
+    The main advantage of multi-threading is that it doesn't occupy memory for each thread. 
+    It shares a common memory area. Threads are important for multi-media, Web applications, etc.
+
+
+DataType:
+---------
+   Data types specify the different sizes and values that can be stored in the variable.
+   There are two types of data types in Java:
+
+    Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.
+    Non-primitive data types: The non-primitive data types String, Classes, Interfaces, and Arrays.
+
+varaible:
+----------------------
+      varable: A varable is name which is used to store a data value into data name.
+  
+   int  x = 10;
+   String name="raju";
+  System.out.println(name);
+
+   int id=3045;
+   String empName="Raju";
+   int mobilenum=980990045;
+   char ch='r';
+  
+ Java Having 3 types of variables.
+---------------------------------
+
+   1)Instance variable or non static variables.
+   2)static variable.
+   3)local variables.
+
+Keyword: it is predefined word which acts as a key to code.
+---------
+datatypes:    byte,short,int,float,double, string, boolean ,char
+flow control: if,else, switch,case,default, for, while,do, continue 
+Exception Handling : try,catch,finally,throw, throws
+Object level:  new,super,this,intanceof
+methods: void, return
+sourcefile : class,extends,interface,implements,package,import
+modifiers: public,private,proteced, default, final, static,abstract,shychronized, stricfp,volatie.
+
+sample java class:
+--------
+
+ Acessmodifiers   keyword  className{
+
+}
+  
+
+   public class Test{
+    // code
+    varable, methods, constructors, blocks
+}
+
+  
+
+
+
